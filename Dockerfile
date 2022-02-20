@@ -32,8 +32,7 @@ COPY . .
 # Build the application
 RUN go build -o main .
 
-# Expose port 5000 to the outside world
-EXPOSE 3000
+EXPOSE 5000
 
 # Command to run the executable
 CMD ["./main"]
